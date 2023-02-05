@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #90bf6a;
+    height: 100px;
+}
+.header-container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+nav {
+    position: absolute;  
+    top: 40px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #d22637;
+    text-decoration: underline;
+}
