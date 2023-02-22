@@ -13,6 +13,14 @@ header {
     margin: 0 auto;
 }
 
+#logo-name {
+    color: blueviolet;
+    position: relative;
+    animation-name: logo-animacao;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
 h1 {
     padding-top: 30px;
 }
@@ -38,4 +46,13 @@ nav a {
 nav a:hover {
     color: #d22637;
     text-decoration: underline;
+}
+
+
+@keyframes logo-animacao {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: blue;}
+    75% {color: green;}
+    100% {color: red;}
 }
